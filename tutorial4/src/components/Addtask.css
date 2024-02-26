@@ -1,0 +1,22 @@
+.addtask{
+    border-radius: 1px;
+    border: 1px solid black;
+    max-width: 500px;
+    align-items: center;
+    margin: auto;
+    height: 70px;
+    
+}
+form{
+    border-radius: 0%;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.addtaskbutton{
+    background-color: green;
+    color: wheat;
+    
+}

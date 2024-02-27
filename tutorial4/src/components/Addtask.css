@@ -18,5 +18,13 @@ form{
 .addtaskbutton{
     background-color: green;
     color: wheat;
+    padding: 5px;
+    max-height: 50px;
     
+}
+.resettaskbutton{
+    background-color: red;
+    color: wheat;
+    padding: 5px;
+    max-height: 50px;
 }

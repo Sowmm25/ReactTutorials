@@ -1,0 +1,37 @@
+.card{
+  margin: 15px auto;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  max-width: 600px;
+  border-radius: 5px;
+
+}
+.instock{
+    background-color: green;
+}
+.unavailable{
+    background-color: red;
+}
+.id{
+    display: flex;
+    justify-content: flex-start;
+    background-color: purple;
+    color: azure;
+    max-width: 40px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 7px 10px;
+    margin: auto;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    margin: 20px 10px;
+}

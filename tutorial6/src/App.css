@@ -1,0 +1,68 @@
+.App{
+    min-height: 100vh;
+  }
+
+.container{
+    max-width: 120px;
+    margin: auto;
+    padding: 10px 10px;
+
+}
+header{
+    max-height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    box-shadow: var(--box-shadow)
+
+}
+header .logo{
+    display: flex;
+    align-items: center;
+    
+}
+header .logo img{
+    width: 80px;
+    cursor: pointer;
+}
+header .logo span{
+    font-size: 18px;
+    cursor: pointer;
+    margin: 7px;
+    color: #525252;
+}
+.navigation .link{
+    padding: 10px;
+  }
+  
+  .navigation .link.active{
+    background-color: #EEEEEE;
+    border-radius: 5px;
+  }
+@media screen and (max-width: 480px) {
+    .navigation{
+        display: none;
+    }
+  }
+  .component{
+    text-align: center;
+    height: 50px;
+    box-shadow: var(--box-shadow);
+  }
+  .homeButton{
+    background-color: #1C59AE;
+    color: antiquewhite;
+  }
+footer{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    height: 70px;
+    font-size: 18px;
+    border-top: 1px solid var(--theme-border);
+}

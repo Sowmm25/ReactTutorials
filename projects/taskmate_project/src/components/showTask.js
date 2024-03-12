@@ -5,7 +5,7 @@ export const ShowTask = ({tasklist,setTasklist,task,setTask}) => {
   //  { id:1001,name:"Task A",time:"13:24 PM 05-03-2024"},
   //  {id:1002,name:"Task B",time:"13:24 PM 05-03-2024"},
   //  {id:1003,name:"Task C",time:"13:24 PM 05-03-2024"}];
-
+  
    const handleUpdate=(id)=>{
     const selectedTask=tasklist.find(todo=>todo.id===id);
     console.log(selectedTask);

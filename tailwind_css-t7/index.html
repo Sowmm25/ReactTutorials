@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnTailwind - Learning Tailwind With Examples</title>
+    <link rel="shortcut icon" href="./images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./index.js"></script>
+    <!-- <script src="./index.js"></script> -->
+</head>
+
+<body class="bg-white dark:bg-slate-800">
+    <h1 class="m-6  text-4xl bg-blue-300 hover:bg-red-200 hover:italic hover:cursor-pointer text-center py-4 border-4 border-double rounded-md border-fuchsia-600">Learning Tailwind</h1> 
+    <!-- x- is left and right, y-top and bottom just letter is for all sides ex: p-5 padding on all 4 sides is 5*4=20px -->
+    <!-- for border it's different since borders are thinner border-2 is just 2px -->
+    <p class="bg-logo-500 sm:bg-logo-200  text-2xl m-6 rounded-md text-center  p-4 ">Hello World!</p>
+    <!-- sm- is for mobile screen how above code works is it's yellow for mobile screen like less than 648px but breakpoint is sm
+    which means above 648px(for tablets big screen) it changes to red-200 -->
+    <!-- md:bg-red-500 md- when screen size changes (this property when screen size is more than 748px it changes color to red) -->
+    <p class="bg-logo-200 dark:bg-logo-800">Learning <span class="text-4xl text-blue-600">tailwindcss</span> !!</p>
+</body>
+
+</html>

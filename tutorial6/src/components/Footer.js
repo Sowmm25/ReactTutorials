@@ -4,9 +4,9 @@ export const Footer = () => {
   return (
     <footer>
       <Link to="/">
-      2030-Routemate
+        2030-Routemate
       </Link>
-      
+
     </footer>
   )
 }
